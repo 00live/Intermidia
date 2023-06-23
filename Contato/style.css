@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+    
+
+.menu{ 
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color: #1D58FF;
+    position: fixed;
+    display: flex;
+    z-index: 999999999999;
+}    
+
+.menu_fixo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}   #MX{color: rgba(255, 255, 0, 0.799);}
+
+    .logo_inter{
+        transition: 400ms;
+        margin-right: 50px;
+    } .logo_inter:hover  {
+        transform: scale(1.1);
+       
+    } .links ul li:hover{transform: scale(1.1)}
+       .links ul li:active{ transform: scale(0.8) }
+       .links ul li{transition: 400ms;}
+
+    .links> ul{
+   
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+
+    }   
+    
+    .links ul li :not(#last){
+        margin-left:30px ;
+        border-right: 2px solid black;
+        padding-right: 30px;
+        font-family: 'Roboto', sans-serif;
+    
+        
+        
+
+    }   #last{
+        padding-right: 30px;
+        font-family: 'Roboto', sans-serif;
+        padding: 30px;
+        
+    }
+
+    .anchor{
+         color: white;
+         text-decoration: none;
+         font-size: 20px;
+    }
+
+
+    .lay1{
+       
+        height: 530px;
+        width: 100%;
+        background-image: url("https://intermidiadooh.com.br/wp-content/uploads/2022/06/Omega-220421-9-scaled.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }       .overlay{
+                background-color: #1D58FF;
+                opacity: 0.9;
+                height:530px;
+                width: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+            }
+
+            .txt_lay1{
+                position: relative;
+                font-size: 70px;
+                justify-content: center;
+                text-align: center;
+                font-family: 'Museo', sans-serif;
+                word-spacing: 7px;
+                padding-top: 260px;
+                color: white;
+            }
+
+     .lay2{
+        width: 100%;
+        height: 1050px;
+        overflow: hidden;
+        
+     
+    
+    }       
+
+    .sub_lay2> img{
+        margin-left: 50px;
+        margin-top: 80px;
+        animation-name: img_inter;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes img_inter {
+        0%   {transform:translateX(0px);}
+        25%  {transform:translateX(50px);}
+        50%  {transform:translateX(0px);
+            transform:rotate(-5deg); 
+        }
+        75%  {transform:translateX(50px);}
+        100%  {transform:translateX(0px);}
+    }
+
+
+
+
+
+
+
+    .sub_lay2{display: flex;}
+
+    .formulario{
+
+        height: 890px;
+        width: 500px;
+        margin-left: 270px;
+        margin-top: 50px;
+        border: none;
+        background-color: aliceblue;
+        box-shadow: 2px 2px 15px 4px rgb(21, 36, 78);
+        border-radius: 20px;
+
+      
+        
+    } .lay2{
+        align-items: center;
+        
+    }  #txt{  
+        margin-top: 3px;
+        height: 80px;
+        width: 430px;
+        border: none;
+        background-color: #54515128;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #484f607e;
+        margin-bottom: 20px;
+    }
+
+    .campo{
+        margin-left: 35px;
+      padding-top: 15px;  
+
+    }
+
+    .campo label{
+        font-family: 'Museo', sans-serif;
+        font-size: 17px;
+    }
+    .campo> input{
+       margin-top: 3px;
+        height: 30px;
+        width: 430px;
+        border: none;
+        background-color: #54515128;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #484f607e;
+        margin-bottom: 20px;
+        color:black;
+        outline: 0;
+        transition: 500ms;
+    }
+    .campo> input:hover, 
+    .campo> input:focus{
+        scale: 1.08;
+        transition: 500ms;
+    }
+
+
+    .campo_check{
+        margin-top: 20px;
+        color: #283583;
+        font-family: 'Museo', sans-serif;
+        font-size: 18px;
+        margin-left: 35px;
+        
+    }   .campo_check > select{
+          border: none;
+          outline: 0;
+          text-align: center;
+          font-size: 17px;
+          padding: 9px;
+          cursor: pointer;
+         transition: 500ms;
+        margin-bottom: 25px;
+        width: 150px;
+        margin-top: 10px;
+        border-radius: 50px;
+        background-color: #1D58FF;
+        color: white;
+        box-shadow: 1px 2px 3px black;
+        font-family: 'Museo', sans-serif;
+        
+    } .campo_check > select > option{
+        background-color:#283583;
+        border-radius: 15px;
+        outline: 0;
+        text-align: center;
+        padding: 15px;
+        display: inline;
+        font-family: 'Museo', sans-serif;
+    }
+
+    .form_ctl{
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1.1;
+        display: grid;
+        grid-template-columns: 1em auto;
+        gap: 0.5em;
+    }
+
+    .txt{
+        margin-left: 35px;
+      padding-top: 15px; 
+      font-family: 'Museo', sans-serif;
+      color:#283583;
+      font-size: 17px; 
+
+    }
+
+    .txt_lay2{
+        justify-content: center;
+        display: flex;
+        margin-top: 45px;
+        font-family: 'Museo', sans-serif;
+        color:#283583;
+        font-size: 27px;
+    }
+
+
+
+
+
+    .contato{
+        height: 230px;
+        width: 100%;
+        background-color: #1D58FF;
+       display: flex;
+        font-family: 'Museo', sans-serif;
+        z-index: 50;
+    }  
+    
+    
+    .txt_contato{
+        justify-content: right;
+        font-size: 23px;
+        color: white;
+        display: flex;
+        margin-right: 55px;
+    }
+    
+    .lg_inter{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+    
+    }
+    .sec_links_geral{
+        margin-left: 600px;
+        margin-top: 40px;
+    
+    }
+    
+    .txt_e_icon{
+        margin-right: 60px;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        text-decoration: none;
+        color:white;
+        font-size: 18px;
+        padding-top: 10px;
+       
+    }   .a_txt{
+        padding-right:10px;
+        transition: 300ms;
+                } .icon_contato{
+                    transition: 300ms;
+                }
+    
+                .a_txt:hover{
+                    transform: scale(1.15,1.1);
+                    
+    
+                }
+    
+                .icon_contato:hover {
+                    transform: scale(1.15);
+                    
+                }
+    
+                .bt_lay2{
+                    
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                } .bt_lay2 > input{
+                    border: none;
+                    background-color: #283583;
+                    height: 50px;
+                    width: 120px;
+                    border-radius: 40px;
+                    color: white;
+                    font-family: 'Museo', sans-serif;
+                    font-size: 17px;
+                    transition: 500ms;
+                } .bt_lay2 > input:hover{
+
+                    transform:scale( 1.1);
+                    transition: 500ms;
+                    background-color: #E490BC;
+                    color:#283583;
+
+                } .bt_lay2 > input:active{
+                    transform: scale(0.9);
+                    transition: 500ms;
+                }
+     
+    
+    
+
+
+
+
+
+
+
+           /* url("https://intermidiadooh.com.br/wp-content/uploads/2023/05/Prancheta-6-scaled.jpg*/

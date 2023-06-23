@@ -1,0 +1,418 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+    
+
+    .menu{ 
+        justify-content: center;
+        height: 90px;
+        width: 100%;
+        background-color: #1D58FF;
+        position: fixed;
+        display: flex;
+        z-index: 999999999999;
+    }    
+
+    .menu_fixo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+        
+    }   
+    
+        .logo_inter{
+            transition: 400ms;
+            margin-right: 50px;
+        } .logo_inter:hover  {
+            transform: scale(1.1);
+           
+        } .links ul li:hover{transform: scale(1.1)}
+           .links ul li:active{ transform: scale(0.8) }
+           .links ul li{transition: 400ms;}
+
+        .links> ul{
+       
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        margin: 0;
+
+        }   
+        
+        .links ul li :not(#last){
+            margin-left:30px ;
+            border-right: 2px solid black;
+            padding-right: 30px;
+            font-family: 'Roboto', sans-serif;
+        
+            
+            
+
+        }   #last{
+            padding-right: 30px;
+            font-family: 'Roboto', sans-serif;
+            padding: 30px;
+            
+        }
+
+        .anchor{
+             color: white;
+             text-decoration: none;
+             font-size: 20px;
+        }
+
+    .sec_lay{
+    padding-top: 90px;
+    }
+
+    .layout{
+     
+     width: 100%;
+     height: 545px;
+     
+     
+    }
+
+
+    .layout2{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 545px;
+        font-family: 'ABeeZee', sans-serif;
+    }
+
+    .lay2_child{
+        padding-top: 150px;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 90px;
+        color:#264087
+
+    }
+
+    .txt_lay2{
+
+        padding-right: 15px;}
+
+    .txt3_lay2{
+        padding-top:40px ;
+        font-size: 30px;
+        color:rgb(76, 77, 81);
+        line-height: 50px;
+    }
+
+    .overlay{
+        width: 100%;
+        height: 900px;
+        background-image: linear-gradient(180deg, #002BA4 0%, #1D58FF 100%);
+        opacity: 0.87;
+        position: absolute;
+    }
+
+    
+
+    #p_2{position: absolute;
+        font-family: 'Museo', sans-serif;
+        padding-top: 550px;
+        text-align: left;
+        margin-top: 70px;
+        
+    }
+    
+    .p
+     {
+        position: absolute;
+        font-family: 'Museo', sans-serif;
+        padding-top: 500px;
+        text-align: left;
+        font-size: 25px;
+       color: white;
+
+    }
+
+    
+    
+    .title{
+        font-size: 80px;
+        justify-content: center;
+         padding: 50px;
+        margin-left: 450px;
+        position: absolute;
+        color: rgb(78, 220, 220);
+        font-family: 'Museo', sans-serif;
+        padding-top: 100px;
+                                                
+}
+
+    .sub_txts:not(section) {
+        position: absolute;
+        display: flex;
+        color:white;
+        margin-top: 220px;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 90px;
+        width: 500px;
+        height: 500px;
+        
+    }
+
+    
+
+    .sub_txt1,
+    .sub_txt2,
+    .sub_txt3{
+        visibility: hidden;
+
+        font-family: 'Museo', sans-serif;
+        padding: 50px;
+        
+        color: white;
+        
+        display: inline;
+        
+        
+    }
+
+        .ps{
+    
+    justify-content: center;
+    display: flex;
+    
+    }
+
+    .sub_txt{
+    display: flex;
+    color: white;
+        font-size: 15px;
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        margin-top: 8px;
+        line-height: 35px;
+
+    }
+
+
+
+
+
+
+    .sec_carrosel{
+        
+        width: 100%;
+        height: 900px;
+
+    }
+
+    .txt_carrosel{
+        justify-content: center;
+        display: flex;
+        margin-top: 60px;
+        font-family: 'Museo', sans-serif;
+        color:#264087;
+        font-size: 60px;
+        
+       
+    }
+
+
+
+    .carrosel{
+    height: 576px;
+    width: 750px;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 60px;
+    box-shadow: 2px 2px 4px black;
+    overflow:hidden ;
+
+    }
+
+    .img_carrosel{
+        display: flex;
+        transition: transform 2s ease-in-out;
+        transform: translateX(0);
+
+    }
+
+.imgs_carrosel{
+object-fit: cover;
+
+}
+
+
+    .form{
+        width: 100%;
+        height: 470px;
+        background-color: #133E89;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .form_geral{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .fomr_input{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top:30px ;
+
+        
+
+    
+    }   .input_not_label{
+        border-radius: 20px;
+        width: 360px;
+        height: 50px;
+        justify-content: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+         
+            .title_cont{
+                justify-content: center;
+                
+                color: rgb(78, 220, 220);
+                text-align: center;
+                font-family: 'Museo', sans-serif;
+                font-size: 50px;
+                padding-top: 50px;
+            }
+                .input_label{
+                    display: inline;
+                    text-align: center;
+                    color: white;
+                    padding: 25px;
+                    position: relative;
+                    justify-content: center;
+                    font-family: 'Museo', sans-serif;
+                    font-size: 18px;
+                }   .label_input{
+                    background-color: #193566;
+                    border-radius: 10px;
+                    padding: 7px;   
+                    
+                }   .bt_enviar{
+                    text-align: center;
+                   color: black;
+                   background-color: rgb(78, 220, 220);
+                    border: 0;
+                    border-radius: 20px;
+                    font-family: 'Museo', sans-serif;
+                      height: 40px;
+                    width: 150px;
+                    font-size: 15px;
+                    
+                    transition:300ms
+
+
+                }   .bt_enviar_div{
+                    justify-content: center;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    margin-left: -350px;
+                }   .bt_enviar:hover{
+                    transform: scale(1.1);
+                    background-color: white;
+                
+                }   .bt_enviar:active{
+                    transform: scale(0.9);
+                    background-color: rgb(163, 173, 253);
+                }
+
+
+ .select_direito{
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contato{
+    height: 230px;
+    width: 100%;
+    background-color: #1D58FF;
+   display: flex;
+    font-family: 'Museo', sans-serif;
+}  
+
+
+.txt_contato{
+    justify-content: right;
+    font-size: 23px;
+    color: white;
+    display: flex;
+    margin-right: 55px;
+}
+
+.lg_inter{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+
+}
+.sec_links_geral{
+    margin-left: 600px;
+    margin-top: 40px;
+
+}
+
+.txt_e_icon{
+    margin-right: 60px;
+    display: flex;
+    text-align: left;
+    justify-content: right;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    padding-top: 10px;
+   
+}   .a_txt{
+    padding-right:10px;
+    transition: 300ms;
+            } .icon_contato{
+                transition: 300ms;
+            }
+
+            .a_txt:hover{
+                transform: scale(1.15,1.1);
+                
+
+            }
+
+            .icon_contato:hover {
+                transform: scale(1.15);
+                
+            }
+
+
+
+
+
+            #home{
+                color: yellow;
+            }

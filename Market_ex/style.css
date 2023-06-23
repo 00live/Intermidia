@@ -1,0 +1,410 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+    
+
+.menu{ 
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color: #1D58FF;
+    position: fixed;
+    display: flex;
+    z-index: 999999999999;
+}    
+
+.menu_fixo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}   #MX{color: rgba(255, 255, 0, 0.799);}
+
+    .logo_inter{
+        transition: 400ms;
+        margin-right: 50px;
+    } .logo_inter:hover  {
+        transform: scale(1.1);
+       
+    } .links ul li:hover{transform: scale(1.1)}
+       .links ul li:active{ transform: scale(0.8) }
+       .links ul li{transition: 400ms;}
+
+    .links> ul{
+   
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+
+    }   
+    
+    .links ul li :not(#last){
+        margin-left:30px ;
+        border-right: 2px solid black;
+        padding-right: 30px;
+        font-family: 'Roboto', sans-serif;
+    
+        
+        
+
+    }   #last{
+        padding-right: 30px;
+        font-family: 'Roboto', sans-serif;
+        padding: 30px;
+        
+    }
+
+    .anchor{
+         color: white;
+         text-decoration: none;
+         font-size: 20px;
+    }
+
+
+    .lay1{
+        height: 656px;
+        width: 100%;
+        width: 100%;
+   
+        overflow: hidden;
+        background-image: url('https://intermidiadooh.com.br/wp-content/uploads/2023/05/embraed_mkof-67-scaled.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    }   .overflow{
+        width: 100%;
+        height: 656px;
+        background-image: linear-gradient(180deg, #002BA4 0%, #1D58FF 100%);
+        opacity: 0.6}
+            .txt_lay1{
+            font-size: 110px;
+            color: white;
+            position: absolute;
+            top: 32%;
+            left: 27%;  
+            font-family: 'Museo', sans-serif;
+            }   
+
+    .lay2{
+        height: 350px;
+        width: 100%;
+      
+        justify-content: center;
+        text-align: center;
+        
+        font-family: 'Museo', sans-serif;
+      
+        
+    }   .title_lay2{
+        font-size: 80px;
+         color: #1D58FF;
+        word-spacing: 10px;
+        padding-top: 56px;}
+            .sub_txt_lay2{
+            line-height: 30px;
+            word-spacing: 10px;
+            font-size:20px ;
+            color:rgb(47, 47, 47);
+            text-align: left;
+            margin-left: 150px;
+        }
+
+    #lay3{  
+        height:1400px ;
+        width: 100%;
+        background-color:#133E89;
+        text-align: center;
+       }
+            .colunas{
+                
+                display: inline;} 
+                .coluna1, .coluna2{ 
+                    padding: 10px;
+                    justify-content: center;
+                    display: flex;}   
+                    .coluna1 :first-child,.coluna2 :first-child {
+                    padding-right: 10px;
+                    }   #title_lay3{
+                        font-size: 70px;
+                        font-family: 'Space Mono', monospace;
+                        color:rgb(85, 220, 220);
+                        padding-top: 50px;
+                        padding-bottom: 50px;}
+                        
+                        
+               
+                    .animation_txt{animation-delay: 200ms;
+                        animation-name: lay3;
+                        animation-duration: 6s;}
+                        .animation_img1{animation-name: imgs1;
+                            animation-duration: 3s;
+                            display: flex;}
+                            .animation_img2{animation-name: imgs2;
+                                animation-duration: 3s;
+                                display: flex;}
+                    @keyframes lay3{
+                        0% {transform: rotateY(0deg);}
+                        25% {transform: rotateY(50deg);}
+                        50% {transform:  rotateX(-70deg);}
+                        75% {transform:  rotateX( 20deg);}
+                        100% {transform:  scale(1);}
+                            
+                    }
+
+                    @keyframes imgs1{
+                        0% {transform: rotateZ(0deg);}
+                        50% {transform: rotatez(10deg);}
+                        100% {transform: scale(1);}
+                    }
+
+                    @keyframes imgs2{
+                        0% {transform: rotateZ(0deg);}
+                        50% {transform: rotatez(-10deg);}
+                        100% {transform: scale(1);}
+                    }
+
+
+
+                    .lay4{
+                        height: 400px;
+                        width: 100%;
+                        font-family: 'Museo', sans-serif;
+                        justify-content: center;
+                        text-align: center;
+                        display: flex;
+                    }
+
+            .textos_lay4{
+                margin-right: 70px;
+                position: absolute;}        
+                    .title_lay4{
+                    font-size: 60px;
+                    color: #133E89;
+                    padding-top: 150px;
+                    line-height: 60px;
+
+                    }   
+                    
+                        #txt_lay4{ 
+                         font-size: 20px;
+                            padding-top: 30px;
+
+                    }
+            .img_lay4{
+                margin-left: 1200px;
+                margin-top: 70px;
+               
+            }
+
+    .lay5{
+        background-image: url('https://intermidiadooh.com.br/wp-content/uploads/2023/05/Cardapio-NOVEMBRO-2-e1685109133760.jpeg');
+    height: 1000px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Museo', sans-serif;
+    background-repeat: no-repeat;
+    z-index: 1;
+    }        
+
+    .overlay{
+        height: 1000px;
+        width: 100%;
+        background-color: #133E89;
+        opacity: 0.89;
+       
+        position: relative;
+    }
+
+
+    .textos{
+        text-align: center;
+        padding-top: 210px;
+        z-index: 2;
+        margin-left: 210px;
+        position: absolute;
+        color: white;
+        width: 1100px;
+    }
+
+        .title_lay5{
+     
+        font-size: 70px;
+        }
+            .txt1_lay5{
+                text-align: left;
+                padding-top:45px ;
+                justify-content: left;
+                font-size: 20px;
+                padding-bottom: 30px;
+                line-height: 33px;
+                word-spacing: 3px;
+            }
+                .txt2_lay5{
+                    text-align: left;
+                display: flex;
+                font-size: 20px;
+                line-height: 33px;
+                }
+
+
+                .numbers{
+                    margin-left: 350px;
+                    padding-top: 650px;
+                    z-index: 20;
+                    position: absolute;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                } .n_lay5{
+                    font-size: 80px;
+                    color:#69EAF4;
+                    font-family:"Space Mono", Sans-serif;
+                    } .txt3_lay5{
+                        padding-right: 150px;
+                        } .sb_txt_lay5{font-size: 20px;}
+
+
+    .lay6{
+        font-family: 'Museo', sans-serif;
+        height: 50px;
+        width: 100%;   
+        background-color: white;
+       
+    }   
+    .textos_lay6{
+        display: inline;
+        justify-content: center;
+       text-align: center;
+       font-family: 'Museo', sans-serif;
+    }
+
+    .vid_lay6{
+
+        justify-content: center;
+    }
+    .vdo_lay6{
+        display: inline;
+            height: 500px;
+            width: 750px;
+            margin-left: 350px;
+            text-align: center;
+    }
+
+                        
+    #txt2_la6{
+        font-size: 65px;
+        color:#133E89;
+
+        
+    } #txt3_lay6{color: rgb(98, 94, 94);}
+
+
+    .lay7{
+        background-color: #133E89;
+        height: 320px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Museo', sans-serif;
+        gap:320px
+    } .txt_lay7{
+        line-height: 70px;
+        font-size: 45px;
+        color: white;
+            
+    }       #bt_lay7{
+            background-color: #69EAF4;
+            height: 70px;   
+            width: 350px;
+            text-decoration: none;
+            color:#133E89;
+            border-radius: 80px;
+            font-size: 32px;
+            justify-content: center;
+            text-align: center;
+            padding-top: 17px;
+            font: 900;
+            transition: 300ms; 
+    }                  #bt_lay7:hover{
+                            background-color: white;
+                            transform: scale(1.1);  
+                            transition: 300ms;  }
+                            #bt_lay7:active{
+                                transform: scale(0.9);
+                                transition: 300ms;
+                                
+                            }
+
+
+
+
+
+
+    .contato{
+        height: 230px;
+        width: 100%;
+        background-color: #1D58FF;
+       display: flex;
+        font-family: 'Museo', sans-serif;
+    }  
+    
+    
+    .txt_contato{
+        justify-content: right;
+        font-size: 23px;
+        color: white;
+        display: flex;
+        margin-right: 55px;
+    }
+    
+    .lg_inter{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+    
+    }
+    .sec_links_geral{
+        margin-left: 600px;
+        margin-top: 40px;
+    
+    }
+    
+    .txt_e_icon{
+        margin-right: 60px;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        text-decoration: none;
+        color:white;
+        font-size: 18px;
+        padding-top: 10px;
+       
+    }   .a_txt{
+        padding-right:10px;
+        transition: 300ms;
+                } .icon_contato{
+                    transition: 300ms;
+                }
+    
+                .a_txt:hover{
+                    transform: scale(1.15,1.1);
+                    
+    
+                }
+    
+                .icon_contato:hover {
+                    transform: scale(1.15);
+                    
+                }

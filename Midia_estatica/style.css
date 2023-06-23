@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+    
+
+    .menu{ 
+        justify-content: center;
+        height: 90px;
+        width: 100%;
+        background-color: #1D58FF;
+        position: fixed;
+        display: flex;
+        z-index: 999999999999;
+    }    
+
+    .menu_fixo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+        
+    }   #ME{color: rgba(255, 255, 0, 0.799);}
+    
+        .logo_inter{
+            transition: 400ms;
+            margin-right: 50px;
+        } .logo_inter:hover  {
+            transform: scale(1.1);
+           
+        } .links ul li:hover{transform: scale(1.1)}
+           .links ul li:active{ transform: scale(0.8) }
+           .links ul li{transition: 400ms;}
+
+        .links> ul{
+       
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        margin: 0;
+
+        }   
+        
+        .links ul li :not(#last){
+            margin-left:30px ;
+            border-right: 2px solid black;
+            padding-right: 30px;
+            font-family: 'Roboto', sans-serif;
+        
+            
+            
+
+        }   #last{
+            padding-right: 30px;
+            font-family: 'Roboto', sans-serif;
+            padding: 30px;
+            
+        }
+
+        .anchor{
+             color: white;
+             text-decoration: none;
+             font-size: 20px;
+        }
+
+
+
+        .lay1{
+            width: 100%;
+            height: 550px;
+            overflow: hidden;
+            background-image: url(/Midia_estatica/img_lay1.jpg); 
+            background-repeat: no-repeat;  
+            background-size: cover;
+           /* animation-name: lay1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;*/
+                    }
+
+                @keyframes lay1{
+                    0%{width: 100%;}
+                    50% {width: 105%;}
+                    100%{width: 100%;}
+                }    
+
+                   .overlay{
+                    width: 100%;
+                    height: 550px;
+                    background-image: linear-gradient(180deg, #002BA4 0%, #1D58FF 100%);
+                    opacity: 0.6;
+                    
+                } .txt_lay1{    
+                    font-size: 120px;
+                    margin-top: -300px;
+                    margin-left: 350px;
+                    z-index:12000 ;
+                    position: absolute;
+                    color: rgb(78, 220, 220);
+                    font-family: 'Museo', sans-serif;
+                   justify-content: center;
+                   display: flex;
+                   align-items: center;
+                }
+
+
+.lay2 {
+    height: 700px;
+    width: 100%;
+    font-family: 'Museo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+    margin-left: 122px;
+}
+
+.img_lay2{  
+    height: 150px;
+    width: 350px;
+} .img_lay2> img {box-shadow: 15px 15px 15px#4266cb;}
+
+.textos{
+    padding-right: 150px;
+    margin-left: 430px;
+    padding-top: 280px;
+
+
+}
+    .title{ 
+        color:#1D58FF;
+        font-size: 70px;
+        justify-content: center;
+         font: 700;}
+        .txt{
+            line-height: 35px;  
+            font-size: 21px;}
+                .txt_final{
+                    padding-top: 15px;
+                    line-height: 28px;
+                }
+
+
+       .lay3{
+        height: 220px;
+        width: 100%;
+        background-color: #133E89;    
+        font-family: 'Museo', sans-serif;
+        position: relative  ;
+    }
+
+                .title_lay4{
+                    font-size: 90px;
+                    color: rgb(78, 220, 220);
+                    
+                    padding-top: 30px;
+                    margin-left: 150px;
+                  }.txt_lay4{
+                    margin-left:150px ;
+                    font-size: 25px;
+                    color: white;}
+
+
+
+                    .lay5{
+                        height: 700px;
+                        width: 100%;
+                        font-family: 'Museo', sans-serif;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition-duration: 700ms;
+
+                    }
+
+                    .img_lay5{margin-left: 230px;}
+                        .img_lay5> img{box-shadow: 20px 20px 10px white }
+
+
+            .textos_lay2{  
+                
+                padding-right: 150px;
+                padding-left: 90px;
+               }        
+                .title_lay2{ color:#1D58FF;
+                    font-size: 70px;
+                    justify-content: center;
+                     font: 700;}
+                    .txt_lay2{  line-height: 35px;  
+                        font-size: 21px;} 
+                        .txt_final_lay2{ padding-top: 15px;
+                            line-height: 28px;}   
+
+
+.luz {
+    background-color: rgb(203, 198, 198);
+    transition-duration: 700ms;
+    
+}
+
+.luz_de_fundo{
+    height: 450px;
+    width: 360px;
+    
+    position: absolute;
+    display: flex;
+   
+    margin-left: 895px;
+    box-shadow: 10px 10px 10px 5px white inset;
+
+}
+
+
+.animação{
+animation-name: lay4;
+animation-duration: 5s;
+
+
+
+
+} @keyframes lay4{
+    0% {margin-left:150px}
+    50% {margin-left:50px}
+    100% {margin-left:150px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    .contato{
+                        height: 230px;
+                        width: 100%;
+                        background-color: #1D58FF;
+                       display: flex;
+                        font-family: 'Museo', sans-serif;
+                    }  
+                    
+                    
+                    .txt_contato{
+                        justify-content: right;
+                        font-size: 23px;
+                        color: white;
+                        display: flex;
+                        margin-right: 55px;
+                    }
+                    
+                    .lg_inter{
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 300px;
+                    
+                    }
+                    .sec_links_geral{
+                        margin-left: 600px;
+                        margin-top: 40px;
+                    
+                    }
+                    
+                    .txt_e_icon{
+                        margin-right: 60px;
+                        display: flex;
+                        text-align: left;
+                        justify-content: right;
+                        text-decoration: none;
+                        color:white;
+                        font-size: 18px;
+                        padding-top: 10px;
+                       
+                    }   .a_txt{
+                        padding-right:10px;
+                        transition: 300ms;
+                                } .icon_contato{
+                                    transition: 300ms;
+                                }
+                    
+                                .a_txt:hover{
+                                    transform: scale(1.15,1.1);
+                                    
+                    
+                                }
+                    
+                                .icon_contato:hover {
+                                    transform: scale(1.15);
+                                    
+                                }

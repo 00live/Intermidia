@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+    
+
+    .menu{ 
+        justify-content: center;
+        height: 90px;
+        width: 100%;
+        background-color: #1D58FF;
+        position: fixed;
+        display: flex;
+        z-index: 999999999999;
+        box-shadow: 0px 7px #1b3e9e;
+    }    
+
+    .menu_fixo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+        
+    }   #MD{color: rgba(255, 255, 0, 0.895);}
+    
+        .logo_inter{
+            transition: 400ms;
+            margin-right: 50px;
+        } .logo_inter:hover  {
+            transform: scale(1.1);
+           
+        } .links ul li:hover{transform: scale(1.1)}
+           .links ul li:active{ transform: scale(0.8) }
+           .links ul li{transition: 400ms;}
+
+        .links> ul{
+       
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        margin: 0;
+
+        }   
+        
+        .links ul li :not(#last){
+            margin-left:30px ;
+            border-right: 2px solid black;
+            padding-right: 30px;
+            font-family: 'Roboto', sans-serif;
+        
+            
+            
+
+        }   #last{
+            padding-right: 30px;
+            font-family: 'Roboto', sans-serif;
+            padding: 30px;
+            
+        }
+
+        .anchor{
+             color: white;
+             text-decoration: none;
+             font-size: 20px;
+        }
+
+.lay1{
+   
+    background-color: #1D58FF;
+    height: 550px;
+    width: 100%;
+   
+    
+}
+    @keyframes img{
+                
+        25%    {margin-top: -300px;}
+        50%    {transform: rotateZ(5deg);}
+        75%    {margin-top: -220px;}
+        90%  {margin-top: -180px;}  
+        
+    }           
+
+
+    .img_inter{
+        justify-content: right;
+        display: flex;
+        margin-top: -210px;
+        margin-right: 50px;
+        animation-name: img;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .title_lay1{
+        font-size: 110px;
+        font-family: 'Museo', sans-serif;
+        color: white;
+        padding-top:250px ;   
+        margin-left: 170px  ;
+    }
+
+
+    .apresentacao{
+        font-family: 'Museo', sans-serif;
+        height: 2300px;
+        width: 100%;
+        background-color: aliceblue;
+        padding-top: 100px;
+        justify-content: center;
+    }   .colum{
+        width: 100%;
+            display: flex;
+            justify-content: center;
+                } 
+
+        .textos{
+            margin-right: 55px;
+        }       
+            .title{ 
+                color:#1D58FF;
+                font-size: 50px;
+                padding-top: 70px;
+                justify-content: center;
+               font: 700;
+            }
+                .txt{
+                    padding-top: 25px;
+                    font-size: 22px;
+                    line-height: 40px;
+                    word-spacing: 7px;
+                }
+                    .txt_final{
+                        font-size: 16px;
+                        padding-top: 25px;
+                        line-height: 30px;
+                        color: rgb(76, 73, 73);
+                    }
+    .carossel{
+        height: 550px;
+        width: 750px;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap:1rem;
+        margin-top: 220px;
+        margin-left: -50px;
+        
+    }
+
+    .container_imgs{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        box-shadow: 3px 40px black;
+        
+    }
+
+
+
+    .slider, .slider_c2{
+        position: absolute;
+        width: 100%;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity .4s;
+    }
+
+ 
+    .on_c2{
+        opacity:1;
+        transition: 500ms;
+            
+    }
+    
+    .on{
+        opacity:1;
+        transition: 500ms;
+            
+    }
+
+ #prev_bt, #next_bt, #prev_bt_c2, #next_bt_c2{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer
+}
+
+#prev_bt img , #next_bt img{ 
+    width: 100%;
+    height: 100%;}
+    
+    .bt_conheça{    
+        text-decoration: none;
+        background-color: #1b3e9e;
+        color: white;
+        font-family: 'Museo', sans-serif;
+        font-size: 23px;
+        width: 300px;
+        height: 80px;
+        border-radius: 40px;
+        border: none;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        transition: 400ms;
+        
+    } .bt_c{justify-content: center;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            margin-bottom: 70px;
+            margin-top: -70px;
+            
+
+    }   .bt_conheça:hover{
+            background-color: #E50652;
+            transform: scale(1.1);
+            transition: 400ms;
+        }
+
+    
+
+    .contato{
+        height: 230px;
+        width: 100%;
+        background-color: #1D58FF;
+       display: flex;
+        font-family: 'Museo', sans-serif;
+    }  
+    
+    
+    .txt_contato{
+        justify-content: right;
+        font-size: 23px;
+        color: white;
+        display: flex;
+        margin-right: 55px;
+    }
+    
+    .lg_inter{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+    
+    }
+    .sec_links_geral{
+        margin-left: 600px;
+        margin-top: 40px;
+    
+    }
+    
+    .txt_e_icon{
+        margin-right: 60px;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        text-decoration: none;
+        color:white;
+        font-size: 18px;
+        padding-top: 10px;
+       
+    }   .a_txt{
+        padding-right:10px;
+        transition: 300ms;
+                } .icon_contato{
+                    transition: 300ms;
+                }
+    
+                .a_txt:hover{
+                    transform: scale(1.15,1.1);
+                    
+    
+                }
+    
+                .icon_contato:hover {
+                    transform: scale(1.15);
+                    
+                }
+    
+    
+    
+
